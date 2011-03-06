@@ -1,0 +1,9 @@
+#!/usr/bin/env perl
+package    # Hide from PAUSE
+  tapfilters;
+
+# ABSTRACT: tapfilters command line tool
+
+use App::tapfilters;
+
+App::tapfilters->run;
